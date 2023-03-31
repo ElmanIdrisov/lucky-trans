@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 67.5vw;
+  margin: auto;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

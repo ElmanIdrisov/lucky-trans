@@ -1,0 +1,37 @@
+@use "sass:math";
+@function toVw($target) {
+    $vw-context: (1920 * 0.01) * 1px;
+    @return math.div($target, $vw-context) * 1vw;
+}
+
+@mixin display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+$c-blue: #107fc9;
+$c-red: #ff1515;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: toVw(1296px);
+    margin: auto;
+}
+
+.header-info{
+    @include display-flex();
+}
