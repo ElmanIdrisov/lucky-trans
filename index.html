@@ -9,7 +9,8 @@
    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header id="header">
+    <header>
+        <p id="header">p</p>
         <div class="container">
             <div class="header-info">
 
@@ -66,15 +67,15 @@
                     <div class="euro">
                         <p>EUR 490 | USD | RUB 6</p>
                     </div>
-                    <div class="animation">
+                    <div id="animation" class="animation">
                         <button><img src="./img/list.png" alt=""></button>
                     </div>
                     <div class="buttons">
                         <div>
-                            <button><a href="">ЗАКАЗАТЬ ЗВОНОК</a></button>
+                            <button><a href="#popup-2">ЗАКАЗАТЬ ЗВОНОК</a></button>
                         </div>
                         <div>
-                            <button><a href="">НАПИСАТЬ СООБЩЕНИЕ</a></button>
+                            <button><a href="#popup-3">НАПИСАТЬ СООБЩЕНИЕ</a></button>
                         </div>
                         <div>
                             <button><a href="">РАССЧИТАТЬ ТАРИФ</a></button>
@@ -292,8 +293,57 @@
         <div class="popup__body">
             <div class="popup__content">
                 <a href="#header" class="popup__close">X</a>
-                <div class="popup__title"> Это модальное окно №1</div>
-                <div class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quia praesentium dolore molestiae rem maxime delectus voluptas soluta totam repellendus!</div>
+                <div class="popup__title">
+                    <h2>ЗАПОЛНИТЕ ФОРМУ ЗАЯВКИ, И МЫ РАССЧИТАЕМ СТОИМОСТЬ ГРУЗОПЕРЕВОЗКИ</h2>
+                </div>
+                <div class="popup__text">
+                    <div class="company company__earth">
+                        <input class="input-comp" type="text" required name="NameCompany" placeholder="Полное наименование компании">
+                    </div>
+                    <div class="name-top name-input">
+                            <input class="name-bottom" type="text" placeholder="Имя\Фамилия">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-2" class="popup-2">
+        <div class="popup-2__body">
+            <div class="popup-2__content">
+                <a href="#header" class="popup-2__close">X</a>
+                <div class="popup-2__title">
+                    <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
+                    <p>И мы свяжемся с вами в течении 15 минут</p>
+                </div>
+                <div class="popup-2__input">
+                    <input name="name" required type="text" placeholder="Ваше имя">
+                    <input class="telephone" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
+                </div>
+                <div class="get">
+                    <button>ОТПРАВИТЬ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-3" class="popup-3">
+        <div class="popup-3__body">
+            <div class="popup-3__content">
+                <a href="#header" class="popup-3__close">X</a>
+                <div class="popup-3__title">
+                    <h2>НАПИСАТЬ СООБЩЕНИЕ</h2>
+                    <p>И мы свяжемся с вами в течении 15 минут</p>
+                </div>
+                <div class="popup-3__input">
+                    <input name="name" required type="text" placeholder="Ваше имя">
+                    <input class="telephone" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
+                    <input class="email-tp" type="email" name="email" placeholder="E-mail">
+                    <input class="comments" type="text" name="comment" placeholder="Ваш комментарий">
+                </div>
+                <div class="get">
+                    <button>ОТПРАВИТЬ</button>
+                </div>
             </div>
         </div>
     </div>
