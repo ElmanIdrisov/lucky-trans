@@ -555,4 +555,14 @@
     display: block;
     text-align: center;
   }
+  .popup .popup-body .popup-content {
+    width: 150px;
+    height: 150px;
+  }
+  .popup .popup-body .popup-content .select .option {
+    display: none;
+  }
+  .popup .popup-body .popup-content .gruz {
+    display: none;
+  }
 }/*# sourceMappingURL=media.css.map */

@@ -592,6 +592,22 @@ section.scheme{
             text-align: center;
         }
     }
+    .popup{
+        .popup-body{
+           .popup-content{
+            width: 150px;
+            height: 150px;
+            .select{
+                .option{
+                    display: none;
+                }
+            }
+            .gruz{
+                display: none;
+            }
+           }
+        }
+    }
 }
 
 
