@@ -1,0 +1,558 @@
+@media screen and (max-width: 400px) {
+  .container {
+    width: 380px;
+    margin: auto;
+  }
+  header .header-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  header .header-menu .menu-body .menu-list {
+    display: none;
+  }
+  header .header-menu .menu-body .menu-list .menu-link {
+    display: none;
+  }
+  header .header-menu .menu-body .menu-list .menu-link:hover {
+    color: red;
+    transition: 0.2s;
+  }
+  header .header-menu .phone {
+    margin-top: -70px;
+  }
+  header .header-menu .phone a {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  section.image {
+    background-image: url(../img/bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  section.image .info .heading {
+    display: block;
+    padding-top: 280px;
+    text-align: center;
+  }
+  section.image .info .heading h1 {
+    font-family: "Exo 2", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+    margin-top: -100px;
+  }
+  section.image .info .euro {
+    display: flex;
+    justify-content: center;
+    margin-top: -250px;
+  }
+  section.image .info .euro p {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+  }
+  section.image .info .buttons {
+    margin-top: 285px;
+  }
+  section.item .item-text .text {
+    margin-top: 30px;
+    /*  animation: left 1.8s linear; */
+  }
+  section.item .item-text .text h2 {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+  }
+  section.item .item-text .team {
+    margin-top: 20px;
+    /*  animation: left 2s linear; */
+  }
+  section.item .item-text .team p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  section.item .item-text .year {
+    margin-top: 20px;
+    /*   animation: left 2.2s linear; */
+  }
+  section.item .item-text .year p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+  }
+  section.main .services {
+    display: flex;
+    flex-direction: column;
+  }
+  section.main .services .description .service {
+    font-weight: 600;
+    font-size: 28px;
+    color: #1f4287;
+    text-align: center;
+  }
+  section.main .services .description .com {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  section.main .services .description .work {
+    margin-top: 30px;
+  }
+  section.main .services .description .work p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  section.main .services .images {
+    width: 380px;
+  }
+  section.main .services .images .poezd {
+    position: relative;
+    z-index: 2;
+    left: 5px;
+    top: 110px;
+  }
+  section.main .services .images .red {
+    position: relative;
+    left: 30px;
+  }
+  section.main .services .rels {
+    position: relative;
+    z-index: 50;
+    top: -675px;
+    left: 270px;
+  }
+  section.they .cargo {
+    display: flex;
+    flex-direction: column;
+    margin-top: -190px;
+  }
+  section.they .cargo h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  section.they .cargo .insurance {
+    display: flex;
+    flex-direction: column;
+  }
+  section.they .cargo .insurance .price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  section.they .cargo .insurance .price h4 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #344552;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  section.they .cargo .insurance .price p {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #344552;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  section.they .cargo .insurance .price .page {
+    background-color: red;
+    border-radius: 7px;
+    padding: 32px;
+    max-width: 92px;
+    max-height: 97px;
+    position: relative;
+    left: 150px;
+  }
+  section.they .cargo .insurance .price .page img {
+    margin-left: -10px;
+    margin-top: -4px;
+  }
+  section.they .cargo .insurance .boom {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    text-align: center;
+  }
+  section.they .cargo .insurance .boom h4 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #344552;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  section.they .cargo .insurance .boom p {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #344552;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  section.they .cargo .insurance .boom .calcul {
+    background-color: red;
+    border-radius: 7px;
+    padding: 32px;
+    max-width: 92px;
+    max-height: 97px;
+    position: relative;
+    left: 150px;
+  }
+  section.they .cargo .insurance .boom .calcul img {
+    margin-left: -10px;
+    margin-top: -4px;
+  }
+  section.they .cargo .insurance .circle {
+    display: flex;
+    margin-top: -135px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  section.they .cargo .insurance .circle h4 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #344552;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  section.they .cargo .insurance .circle p {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #344552;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  section.they .cargo .insurance .circle .logistic {
+    background-color: red;
+    border-radius: 7px;
+    padding: 32px;
+    max-width: 92px;
+    max-height: 97px;
+    position: relative;
+    left: 150px;
+  }
+  section.they .cargo .insurance .circle img {
+    margin-left: -5px;
+    margin-top: -4px;
+  }
+  section.they .cargo .man {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  section.they .cargo .man h4 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #344552;
+    position: relative;
+    right: 120px;
+    margin-top: 10px;
+  }
+  section.they .cargo .man p {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #344552;
+  }
+  section.they .cargo .man .individual {
+    background-color: red;
+    border-radius: 7px;
+    padding: 32px;
+    max-width: 92px;
+    max-height: 97px;
+    position: relative;
+    left: 400px;
+  }
+  section.they .cargo .man .individual img {
+    margin-left: -5px;
+    margin-top: -4px;
+  }
+  section.scheme .cooperation {
+    margin-top: 7px;
+  }
+  section.scheme .cooperation h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  section.scheme .cooperation p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  section.scheme .application .line {
+    display: none;
+  }
+  section.scheme .application .many {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+  section.scheme .application .many .call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 39px;
+    left: -59px;
+  }
+  section.scheme .application .many .call img {
+    width: 100px;
+  }
+  section.scheme .application .many .call h6 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    text-align: center;
+    margin-left: 0px;
+  }
+  section.scheme .application .many .call .button-1 {
+    width: 40px;
+    top: 174px;
+    left: 66px;
+    rotate: 90deg;
+  }
+  section.scheme .application .many .call-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -65px;
+    margin-top: 141px;
+  }
+  section.scheme .application .many .call-1 img {
+    width: 100px;
+  }
+  section.scheme .application .many .call-1 h6 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    text-align: center;
+    margin-left: -52px;
+  }
+  section.scheme .application .many .call-1 .button-2 {
+    position: absolute;
+    width: 40px;
+    top: 169px;
+    left: 31px;
+    rotate: 90deg;
+  }
+  section.scheme .application .many .call-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -94px;
+    margin-top: 97px;
+  }
+  section.scheme .application .many .call-2 img {
+    width: 100px;
+  }
+  section.scheme .application .many .call-2 h6 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    text-align: center;
+    margin-left: -20px;
+  }
+  section.scheme .application .many .call-2 .button-3 {
+    position: absolute;
+    width: 40px;
+    top: 169px;
+    left: 22px;
+    rotate: 40deg;
+  }
+  section.scheme .application .many .call-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -98px;
+    margin-top: 97px;
+  }
+  section.scheme .application .many .call-3 img {
+    width: 80px;
+  }
+  section.scheme .application .many .call-3 h6 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    margin-left: -12px;
+    background-color: #fff;
+  }
+  section.scheme .application .many .call-3 .button-4 {
+    width: 40px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 155px;
+    right: 29px;
+  }
+  section.scheme .application .many .call-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -70px;
+    margin-top: 97px;
+    margin-bottom: 100px;
+  }
+  section.scheme .application .many .call-4 img {
+    width: 80px;
+  }
+  section.scheme .application .many .call-4 h6 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    text-align: center;
+    margin-left: -40px;
+  }
+  section.scheme .application .many .call-4 .button-5 {
+    width: 40px;
+    position: absolute;
+    transform: rotate(90deg);
+    right: 60px;
+    top: 170px;
+    bottom: 40px;
+  }
+  section.scheme .application .many .call-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -70px;
+    margin-top: -10px;
+  }
+  section.scheme .application .many .call-5 img {
+    width: 100px;
+  }
+  section.scheme .application .many .call-5 h6 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    text-align: center;
+    margin-left: -20px;
+  }
+  section.scheme .application .many .call-5 .button-6 {
+    position: absolute;
+    width: 40px;
+    top: 164px;
+    left: 20px;
+    transform: rotate(90deg);
+  }
+  section.scheme .application .many .call-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -105px;
+    margin-top: 100px;
+  }
+  section.scheme .application .many .call-6 img {
+    width: 80px;
+  }
+  section.scheme .application .many .call-6 h6 {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #344552;
+    text-align: center;
+    margin-left: 0px;
+  }
+  section.consul {
+    background-image: url(../img/park.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    margin-top: 80px;
+  }
+  section.consul .obj {
+    margin-left: 700px;
+    padding-top: 50px;
+    position: relative;
+  }
+  section.consul .obj .title {
+    position: absolute;
+    right: 585px;
+    top: 15px;
+  }
+  section.consul .obj .title h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  section.consul .obj .input {
+    position: absolute;
+    right: 530px;
+  }
+  section.consul .obj .input input {
+    width: 150px;
+    padding: 4px 8px;
+  }
+  section.consul .obj .consultation {
+    position: absolute;
+    right: 520px;
+    top: 130px;
+  }
+  section.consul .obj .consultation button {
+    width: 160px;
+    padding: 6px 8px;
+    border-radius: 20px;
+    font-size: 8px;
+  }
+  footer .footer-info {
+    display: block;
+  }
+  footer .footer-info .logo-foot {
+    margin-left: 95px;
+  }
+  footer .footer-info .menu-foot {
+    display: block;
+    text-align: center;
+  }
+  footer .footer-info .phone-top {
+    margin-left: 95px;
+  }
+  footer .footer-info .mesenger {
+    margin-left: 160px;
+  }
+  footer .alux {
+    display: block;
+    text-align: center;
+  }
+}/*# sourceMappingURL=media.css.map */

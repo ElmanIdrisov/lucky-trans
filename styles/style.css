@@ -29,7 +29,7 @@ body._touch .menu-link {
 }
 
 .container {
-  width: 1330px;
+  max-width: 1330px;
   margin: auto;
 }
 
@@ -78,11 +78,9 @@ section.image {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
-  width: 1520px;
 }
 section.image .info .heading {
-  display: block;
-  padding-top: 280px;
+  padding-top: 200px;
 }
 section.image .info .heading h1 {
   font-family: "Exo 2", sans-serif;
@@ -94,7 +92,7 @@ section.image .info .heading h1 {
 section.image .info .euro {
   display: flex;
   justify-content: flex-end;
-  margin-top: -250px;
+  margin-top: -240px;
 }
 section.image .info .euro p {
   font-family: "Exo", sans-serif;

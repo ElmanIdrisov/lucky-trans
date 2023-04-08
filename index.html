@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <title>LUCKY TRANS</title>
    <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylesheet" href="/styles/media.css">
 </head>
 <body>
     <div class="wrapper">
@@ -287,100 +288,103 @@
         </div>
     </footer>
 
-    <div id="popup" class="popup">
-        <a href="#header" class="popup-area"></a>
-        <div class="popup__body">
-            <div class="popup__content">
-                <form action="/requestFine" role="form" autocomplete="off" method="post">
-                    <a href="#header" class="popup__close">X</a>
-                    <div class="popup__title">
-                        <h2>ЗАПОЛНИТЕ ФОРМУ ЗАЯВКИ, И МЫ РАССЧИТАЕМ СТОИМОСТЬ ГРУЗОПЕРЕВОЗКИ</h2>
-                    </div>
-                    <div class="popup__text">
-                        <div class="company company__earth">
-                            <input class="input-comp" type="text" required name="NameCompany" placeholder="Полное наименование компании">
+    <div class="container">
+        <div id="popup" class="popup">
+            <a href="#header" class="popup-area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <form action="/requestFine" role="form" autocomplete="off" method="post">
+                        <a href="#header" class="popup__close">X</a>
+                        <div class="popup__title">
+                            <h2>ЗАПОЛНИТЕ ФОРМУ ЗАЯВКИ, И МЫ РАССЧИТАЕМ СТОИМОСТЬ ГРУЗОПЕРЕВОЗКИ</h2>
                         </div>
-                        <div class="name-top name-input">
-                                <input class="name-bottom" type="text" name="NameAndName" placeholder="Имя\Фамилия">
+                        <div class="popup__text">
+                            <div class="company company__earth">
+                                <input class="input-comp" type="text" required name="NameCompany" placeholder="Полное наименование компании">
+                            </div>
+                            <div class="name-top name-input">
+                                    <input class="name-bottom" type="text" name="NameAndName" placeholder="Имя\Фамилия">
+                            </div>
+                            <div class="popup__input name-phone">
+                                <input class="telephones" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
+                            </div>
+                            <div class="select contry">
+                                <select class="option" name="select-country" id="">
+                                    <option value="from">Откуда (страна)</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Kirgizstan">Kirgizstan</option>
+                                    <option value="China">China</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                </select>
+                            </div>
+                            <div class="gruz gruz-page">
+                                <input class="input-gruz" type="text" name="gruz" required placeholder="ГНГ и ЕТСНГ груза">
+                            </div>
+                            <div class="email-br email-com">
+                                <input type="text" name="email" required placeholder="E-mail">
+                            </div>
+                            <div class="select-2 contry-2">
+                                <select class="option-2" name="select-country-2" id="">
+                                    <option value="to">Куда (страна)</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Kirgizstan">Kirgizstan</option>
+                                    <option value="China">China</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                </select>
+                            </div>
+                            <div class="massa massa-page">
+                                <input type="text" name="massa" required placeholder="Вес груза в вагоне">
+                            </div>
+                            <div class="comment comment-page">
+                                <input type="text" name="comment" required placeholder="Комментарий">
+                            </div>
+                            <div class="station station-page">
+                                <input type="text" name="station" required placeholder="Станция отправления">
+                            </div>
+                            <div class="select-3 contry-3">
+                                <select class="option-3" name="select-country-3" id="">
+                                    <option value="to">Вид подвижного состава</option>
+                                    <option value="vagon">Крытый вагон</option>
+                                    <option value="vagon-2">Полувагон</option>
+                                    <option value="platform">Железнодорожная платформа</option>
+                                    <option value="cistern">Вагон цистерна</option>
+                                    <option value="zerno">Вагон зерновоз</option>
+                                    <option value="rifr">Вагон рефрижератор</option>
+                                    <option value="termos">Вагон термос</option>
+                                    <option value="container">Грузовой контейнер</option>
+                                    <option value="change">Другой вариант</option>
+                                </select>
+                            </div>
+                            <div class="station-2 station-page-2">
+                                <input type="text" name="station-2" required placeholder="Станция назначения">
+                            </div>
+                            <div class="sostav sostav-page">
+                                <input type="text" name="sostav" required placeholder="Принадлежность подвижного состава">
+                            </div>
+                                <div class="input-three-last">
+                                    <div class="button-last">
+                                        <button class="popup-save-one">ОТПРАВИТЬ</button>
+                                    </div>
+                                    <div class="checkbox">
+                                    <p>Виды связи</p>
+                                    <input class="phone" type="checkbox" />
+                                    <span>Телефон</span>
+                                    <input class="email" type="checkbox" />
+                                    <span>E-mail</span>
+                                    <input class="massanger" type="checkbox" />
+                                    <span>Мессенджер</span>
+                                  </div>
+                            </div>
                         </div>
-                        <div class="popup__input name-phone">
-                            <input class="telephones" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
-                        </div>
-                        <div class="select contry">
-                            <select class="option" name="select-country" id="">
-                                <option value="from">Откуда (страна)</option>
-                                <option value="Kazakhstan">Kazakhstan</option>
-                                <option value="Russia">Russia</option>
-                                <option value="Uzbekistan">Uzbekistan</option>
-                                <option value="Kirgizstan">Kirgizstan</option>
-                                <option value="China">China</option>
-                                <option value="Ukraine">Ukraine</option>
-                            </select>
-                        </div>
-                        <div class="gruz gruz-page">
-                            <input class="input-gruz" type="text" name="gruz" required placeholder="ГНГ и ЕТСНГ груза">
-                        </div>
-                        <div class="email-br email-com">
-                            <input type="text" name="email" required placeholder="E-mail">
-                        </div>
-                        <div class="select-2 contry-2">
-                            <select class="option-2" name="select-country-2" id="">
-                                <option value="to">Куда (страна)</option>
-                                <option value="Kazakhstan">Kazakhstan</option>
-                                <option value="Russia">Russia</option>
-                                <option value="Uzbekistan">Uzbekistan</option>
-                                <option value="Kirgizstan">Kirgizstan</option>
-                                <option value="China">China</option>
-                                <option value="Ukraine">Ukraine</option>
-                            </select>
-                        </div>
-                        <div class="massa massa-page">
-                            <input type="text" name="massa" required placeholder="Вес груза в вагоне">
-                        </div>
-                        <div class="comment comment-page">
-                            <input type="text" name="comment" required placeholder="Комментарий">
-                        </div>
-                        <div class="station station-page">
-                            <input type="text" name="station" required placeholder="Станция отправления">
-                        </div>
-                        <div class="select-3 contry-3">
-                            <select class="option-3" name="select-country-3" id="">
-                                <option value="to">Вид подвижного состава</option>
-                                <option value="vagon">Крытый вагон</option>
-                                <option value="vagon-2">Полувагон</option>
-                                <option value="platform">Железнодорожная платформа</option>
-                                <option value="cistern">Вагон цистерна</option>
-                                <option value="zerno">Вагон зерновоз</option>
-                                <option value="rifr">Вагон рефрижератор</option>
-                                <option value="termos">Вагон термос</option>
-                                <option value="container">Грузовой контейнер</option>
-                                <option value="change">Другой вариант</option>
-                            </select>
-                        </div>
-                        <div class="station-2 station-page-2">
-                            <input type="text" name="station-2" required placeholder="Станция назначения">
-                        </div>
-                        <div class="sostav sostav-page">
-                            <input type="text" name="sostav" required placeholder="Принадлежность подвижного состава">
-                        </div>
-                            <div class="input-three-last">
-                                <div class="button-last">
-                                    <button class="popup-save-one">ОТПРАВИТЬ</button>
-                                </div>
-                                <div class="checkbox">
-                                <p>Виды связи</p>
-                                <input class="phone" type="checkbox" />
-                                <span>Телефон</span>
-                                <input class="email" type="checkbox" />
-                                <span>E-mail</span>
-                                <input class="massanger" type="checkbox" />
-                                <span>Мессенджер</span>
-                              </div>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
+
     </div>
 
     <div id="popup-2" class="popup-2">
