@@ -9,48 +9,6 @@
    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-<!--     <header>
-        <p id="header">p</p>
-        <div class="container">
-            <div class="header-info">
-
-                <div class="logo">
-                    <img src="./img/logo.jpg" alt="">
-                </div>
-                <div class="menu-icon">
-                    <span></span>
-                </div>
-
-                <nav class="menu-body">
-                    <ul class="menu-list">
-                        <li><a href="" class="menu-link">ГЛАВНАЯ</a></li>
-                        <li><a href="" class="menu-link" >О КОМПАНИИ</a></li>
-                        <li><a href="" class="menu-link">НАШИ УСЛУГИ</a></li>
-                        <li><a href="" class="menu-link">КЛИЕНТАМ</a></li>
-                        <li><a href="" class="menu-link">КОНТАКТЫ</a></li>
-                        <li><a href="" class="menu-link">ВАКАНСИИ</a></li>
-                    </ul>
-                    <div class="phone">
-                        <div>
-                            <img src="./img/phone.svg" alt="">
-                            <a href="tel: 8 800 808-80-00">8 800 808-80-00</a>
-                        </div>
-                        <div>
-                            <img src="./img/phone.svg" alt="">
-                            <a href="tel: 8 800 808-80-00">8 800 808-80-00</a>
-                        </div>
-                        <div>
-                            <img src="./img/email.svg" alt="">
-                            <a href="mailto: info@trans.kz">info@trans.kz</a>
-                        </div>
-                    </div>
-                </nav>
-
-
-            </div>
-        </div>
-    </header> -->
-
     <div class="wrapper">
        <header class="header">
             <div class="container">
@@ -69,7 +27,20 @@
                             <li><a href="" class="menu-link">ВАКАНСИИ</a></li>
                         </ul>
                     </nav>
-
+                    <div class="phone">
+                        <div>
+                            <img src="./img/phone.svg" alt="">
+                            <a href="tel: 8 800 808-80-00">8 800 808-80-00</a>
+                        </div>
+                        <div>
+                            <img src="./img/phone.svg" alt="">
+                            <a href="tel: 8 800 808-80-00">8 800 808-80-00</a>
+                        </div>
+                        <div>
+                            <img src="./img/email.svg" alt="">
+                            <a href="mailto: info@trans.kz">info@trans.kz</a>
+                        </div>
+                    </div>
                 </div>
             </div>
        </header>
@@ -317,6 +288,7 @@
     </footer>
 
     <div id="popup" class="popup">
+        <a href="#header" class="popup-area"></a>
         <div class="popup__body">
             <div class="popup__content">
                 <form action="/requestFine" role="form" autocomplete="off" method="post">
@@ -329,7 +301,7 @@
                             <input class="input-comp" type="text" required name="NameCompany" placeholder="Полное наименование компании">
                         </div>
                         <div class="name-top name-input">
-                                <input class="name-bottom" type="text" placeholder="Имя\Фамилия">
+                                <input class="name-bottom" type="text" name="NameAndName" placeholder="Имя\Фамилия">
                         </div>
                         <div class="popup__input name-phone">
                             <input class="telephones" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
@@ -386,14 +358,14 @@
                             </select>
                         </div>
                         <div class="station-2 station-page-2">
-                            <input type="text" name="station" required placeholder="Станция назначения">
+                            <input type="text" name="station-2" required placeholder="Станция назначения">
                         </div>
                         <div class="sostav sostav-page">
                             <input type="text" name="sostav" required placeholder="Принадлежность подвижного состава">
                         </div>
                             <div class="input-three-last">
                                 <div class="button-last">
-                                    <button class="popup-save-one" type="submit">ОТПРАВИТЬ</button>
+                                    <button class="popup-save-one">ОТПРАВИТЬ</button>
                                 </div>
                                 <div class="checkbox">
                                 <p>Виды связи</p>
@@ -412,6 +384,7 @@
     </div>
 
     <div id="popup-2" class="popup-2">
+        <a href="#header" class="popup-area"></a>
         <div class="popup-2__body">
             <div class="popup-2__content">
                 <form action="/requestFine" role="form" autocomplete="off" method="post">
@@ -433,6 +406,7 @@
     </div>
 
     <div id="popup-3" class="popup-3">
+        <a href="#header" class="popup-area"></a>
         <div class="popup-3__body">
             <div class="popup-3__content">
                 <form action="/requestFine" role="form" autocomplete="off" method="post">

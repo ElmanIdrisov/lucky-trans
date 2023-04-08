@@ -1,5 +1,3 @@
-"use strict"
-
 const isMobile = {
     Android: function () {
         return navigator.userAgent.match(/Android/i);
@@ -41,3 +39,4 @@ if (iconMenu) {
         menuBody.classList.toggle('_active');
       });
 } 
+
