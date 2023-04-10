@@ -135,18 +135,32 @@
                     position: relative; 
                     z-index: 2; 
                     left: 5px; 
-                    top: 110px; 
+                    top: 95px; 
+                    img{
+                        width: 380px;
+                    }
                 } 
                 .red{ 
                     position: relative; 
-                    left: 30px; 
+                    left: 10px; 
+                    img{
+                        width: 380px;
+                    }
                 } 
             } 
             .rels{
                 position: relative;
-                z-index: 50;
-                top: -675px;
-                left: 270px;
+                top: -650px;
+                left: 10px;
+                .bgc{
+                    padding-left: 220px;
+                }
+                .prices{
+                    padding-left: 290px;
+                }
+                .zakaz{
+                    padding-left: 240px;
+                }
             }
         } 
     }
@@ -295,11 +309,13 @@
                 font-family: 'Exo', sans-serif; 
                 font-style: normal; 
                 font-weight: 600; 
-                font-size: 18px; 
+                font-size: 24px; 
                 color: #344552; 
-                position: relative;
-                right: 120px;
-                margin-top: 10px;
+                text-align: center;
+                padding-left: 85px;
+                padding-top: 10px;
+                width: 200px;
+                
             } 
          p{ 
              font-family: 'Exo', sans-serif; 
@@ -536,13 +552,16 @@ section.scheme{
         height: 55vh;
         margin-top: 80px;
         .obj{
-            margin-left: 700px;
-            padding-top: 50px;
+            /* margin-left: 700px; */
+          /*   padding-top: 50px;
+            position: relative; */
             position: relative;
+            z-index: 50;
+            margin-left: -50px;
             .title{
                 position: absolute;
-                right: 585px;
-                top: 15px;
+                right: 200px;
+                top: 50px;
                 h2{
                     font-size: 20px;
                     margin-bottom: 20px;
@@ -550,21 +569,26 @@ section.scheme{
             }
             .input{
                 position: absolute;
-                right: 530px;
+                right: 150px;
+                top: 80px;
+                
                 input{
-                    width: 150px;
-                    padding: 4px 8px
+                    width: 220px;
+                    padding: 4px 8px;
+                    display: block;
+                    background-color: rgb(240, 240, 240);
+                    color: #fff;
                 }
             }
             .consultation{
                 position: absolute;
-                right: 520px;
-                top: 130px;
+                right: 135px;
+                top: 200px;
                     button{
-                        width: 160px;
-                        padding: 6px 8px;
+                        width: 240px;
+                        padding: 10px 12px;
                         border-radius: 20px;
-                        font-size: 8px;
+                        font-size: 15px;
                 }
             }
     }
@@ -593,19 +617,192 @@ section.scheme{
         }
     }
     .popup{
-        .popup-body{
-           .popup-content{
-            width: 150px;
-            height: 150px;
-            .select{
-                .option{
+        .popup__content{
+            width: 380px;
+            height: 350px;
+            .popup__title{
+                h2{
+                    font-size: 13px;
+                    text-align: center;
+                }
+            }
+            .popup__text{
+                display: block;
+                .name-top{
+                    .name-bottom{
+                        width: 280px;
+                        height: 15px;
+                    } 
+                }
+                .popup__input{
+                    .telephones{
+                        width: 280px;
+                        height: 15px
+                    }
+                }
+                .email-br{
+                    .E-mail{
+                        width: 280px;
+                        height: 15px;
+                        margin-top: 10px;
+                    }
+                }
+                 .button-last{
+                    .popup-save-one{
+                        width: 280px;
+                        height: 50px;
+                        margin-left: 375px;
+                        margin-top: 30px;
+                     /*    button{
+                            font-size: 15px;
+                        } */
+                    }
+                } 
+                
+            }
+            .company{
+                INPUT[type="text"] {
                     display: none;
                 }
             }
-            .gruz{
+            select{
                 display: none;
             }
-           }
+            .gruz{
+                INPUT[type="text"] {
+                    display: none;
+                }
+            }
+            .massa{
+                INPUT[type="text"] {
+                    display: none;
+                }
+            }
+            .station{
+                INPUT[type="text"] {
+                    display: none;
+                }
+            }
+            .station-2{
+                INPUT[type="text"] {
+                    display: none;
+                }
+            }
+            .sostav{
+                INPUT[type="text"] {
+                    display: none;
+                }
+            }
+            .comment{
+                INPUT[type="text"]{
+                    display: none;
+                }
+            }
+            .checkbox{
+                INPUT[type="checkbox"] {
+                    display: none;
+                }
+            }
+            .company__earth{
+                display: none;
+            }
+            .contry{
+                display: none;
+            }
+            .gruz-page{
+                display: none;
+            }
+            .contry-2{
+                display: none;
+            }
+            .massa-page{
+                display: none;
+            }
+            .station-page{
+                display: none;
+            }
+            .contry-3{
+                display: none;
+            }
+            .station-page-2{
+                display: none;
+            }
+            .sostav-page{
+                display: none;
+            }
+            .checkbox{
+                display: none;
+            }
+            .comment-page{
+                display: none;
+            }
+            }
+    }
+    .popup-2{
+        .popup-2__content{
+            width: 380px;
+            .popup-2__title{
+                h2{
+                    font-size: 17px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+            .popup-2__input{
+                .name-info{
+                    width: 260px;
+                    height: 15px;
+                }
+            }
+            .phone-input{
+                .telephone{
+                    width: 260px;
+                    height: 15px;
+                }
+            }
+
+        }
+    }   
+    .popup-3{
+        .popup-3__content{
+            width: 380px;
+            .popup-3__title{
+                h2{
+                    font-size: 13px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+            .popup-3__input{
+                .names{
+                    width: 260px;
+                    height: 15px;
+                }
+            }
+            .pphone-2{
+                .telephoness{
+                    width: 260px;
+                    height: 15px;
+                }
+            }
+            .email-gr{
+                .email-tp{
+                    width: 260px;
+                    height: 15px;
+                }
+            }
+            .comment-com{
+                .comments{
+                    width: 260px;
+                    height: 15px;
+                }
+            }
         }
     }
 }

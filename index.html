@@ -233,7 +233,7 @@
                 </div>
                 <form action="/requestFine" role="form" autocomplete="off" method="post">
                     <div class="input">
-                        <input name="name" required type="text" placeholder="Ваше имя">
+                        <input class="telep" name="name" required type="text" placeholder="Ваше имя">
                         <input class="telep" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
                     </div>
                     <div class="consultation">
@@ -306,7 +306,7 @@
                                     <input class="name-bottom" type="text" name="NameAndName" placeholder="Имя\Фамилия">
                             </div>
                             <div class="popup__input name-phone">
-                                <input class="telephones" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
+                                    <input class="telephones" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
                             </div>
                             <div class="select contry">
                                 <select class="option" name="select-country" id="">
@@ -323,7 +323,7 @@
                                 <input class="input-gruz" type="text" name="gruz" required placeholder="ГНГ и ЕТСНГ груза">
                             </div>
                             <div class="email-br email-com">
-                                <input type="text" name="email" required placeholder="E-mail">
+                                <input class="E-mail" type="text" name="email" required placeholder="E-mail">
                             </div>
                             <div class="select-2 contry-2">
                                 <select class="option-2" name="select-country-2" id="">
@@ -397,8 +397,10 @@
                         <h2>ЗАКАЗАТЬ ЗВОНОК</h2>
                         <p>И мы свяжемся с вами в течении 15 минут</p>
                     </div>
-                    <div class="popup-2__input">
-                        <input class="telephone" name="name" required type="text" placeholder="Ваше имя">
+                    <div class="popup-2__input phone-bef">
+                        <input class="name-info" name="name" required type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="phone-input input-bef">
                         <input class="telephone" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
                     </div>
                     <div class="get get-btn">
@@ -419,10 +421,16 @@
                         <h2>НАПИСАТЬ СООБЩЕНИЕ</h2>
                         <p>И мы свяжемся с вами в течении 15 минут</p>
                     </div>
-                    <div class="popup-3__input">
-                        <input name="name" required type="text" placeholder="Ваше имя">
-                        <input class="telephone" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
+                    <div class="popup-3__input popup-3__name">
+                        <input class="names" name="name" required type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="pphone-2 phone-3">
+                        <input class="telephoness" name="phone" required type="text" placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="email-gr email-mg">
                         <input class="email-tp" type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="comment-com comment-mess">
                         <input class="comments" type="text" name="comment" placeholder="Ваш комментарий">
                     </div>
                     <div class="get">
